@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../assets/style.css"> -->
+    <link rel="stylesheet" href="../assets/navBarStyle.css">
+    <link rel="stylesheet" href="../assets/welcomeScreenStyle.css">
+</head>
+
+<body id="bootstrap-overrides">
+    <nav class="container-fluid d-flex justify-content-between">
+        <div>
+            <img src="../assets/TriviaNightIcon.jpg" alt="Trivia Night icon" height="70px"></img>
+        </div>
+        <div class="rightText">
+            <h1 class="mb-2 mt-2 headerWhiteText">The Ultimate Online Trivia Quiz</h1>
+            <button type="button" class="btn btn-info mb-2 marginRight20 btn-sm btnNavBar">Home</button>
+            <button type="button" class="btn btn-info mb-2 btn-sm btnNavBar">Top Scores</button>
+        </div>
+    </nav>
+    <main class="d-flex align-items-center justify-content-center">
+        <div class="welcomeBox centerText" id="welcomeScreen">
+            
+            <h1 class="mb-3 largeFont">First Create Your Nickname</h1>
+            
+            <input type="text" id="nickName" name="nickName" class="marginBottom30"><br><br>
+            <p></p>
+            <h1 class="largeFont mb-3">Then Select Your Game</h1>
+            
+            <button class="btnStartGame showCursor marRight20" onClick="startGame()">Single Player</button>
+            <button class="btnStartGame showCursor" onClick="startGame()">Multi Player</button>
+        </div>
+    </main>
+</body>
+
+</html>

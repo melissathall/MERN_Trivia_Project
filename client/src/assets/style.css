@@ -1,0 +1,224 @@
+
+/* Generic CSS */
+
+body {
+    padding: 0 10%;
+    background-color: lightgray;
+    background-image: url("QuestRepeat.gif");
+}
+
+/* #bootstrap-overrides .thumbnailImages {
+    width:100%;
+    max-width:100px;
+    max-height:100px;
+} */
+
+/* #bootstrap-overrides .marTop10 {
+    margin-top: 10px;
+}
+#bootstrap-overrides .marTop20 {
+    margin-top: 20px;
+}
+#bootstrap-overrides .marBot10 {
+    margin-bottom: 10px;
+}
+#bootstrap-overrides .marBot20 {
+    margin-bottom: 20px;
+}
+#bootstrap-overrides .marRight10 {
+    margin-right: 10px;
+}
+#bootstrap-overrides .marRight20 {
+    margin-right: 20px;
+} */
+#bootstrap-overrides .marRight10 {
+    margin-right: 10px;
+}
+
+#bootstrap-overrides .marRight20 {
+    margin-right: 20px;
+}
+
+/* #bootstrap-overrides .navMenu {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.welcomeCol1 {
+    flex: 1;
+}
+.welcomeCol2 {
+    flex: 3;
+} */
+
+#bootstrap-overrides .centerText {
+    text-align: center;
+}
+
+#bootstrap-overrides .rightText {
+    text-align: right;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.marginBottom20 {
+    margin-bottom: 20px;
+}
+
+#bootstrap-overrides .marginRight10 {
+    margin-right: 10px;
+}
+
+#bootstrap-overrides .marginRight20 {
+    margin-right: 20px;
+}
+
+
+/* Start of Nav boxes */
+
+/* #bootstrap-overrides .navImgSize {
+    height: 70px;
+}
+
+#bootstrap-overrides .headerWhiteText {
+    color: white;
+}
+
+nav {
+    background-color: black;
+}
+
+nav h1 {
+    color: white;
+    font-size:x-large;
+    font-weight:lighter;
+}
+
+.nav-links {
+    color: white;
+    font-size: medium;
+    list-style-type: none;
+}
+
+.nav-active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-active:hover {
+    color: rgb(41, 171, 223);
+    text-decoration:underline
+}
+
+.nav-disabled {
+    color: gray;
+    text-decoration: none;
+} */
+
+
+
+/* Start Main CSS */
+main {
+    padding: 80px 100px;
+    background-image: radial-gradient(#a4a3a3, #555555, #1f1f1f);
+    /* height: 450px; */   /* Do I need to set a height so the screen doesn't blink when I show the questions? */
+}
+
+/* .main2 {
+    padding: 80px 100px;
+    background-image: radial-gradient(#a4a3a3, #555555, #1f1f1f);
+    display: none;
+}
+
+.main3 {
+    padding: 80px 100px;
+    background-image: radial-gradient(#a4a3a3, #555555, #1f1f1f);
+    display: none;
+} */
+
+#bootstrap-overrides main h1 {
+    color: #12387f;
+}
+
+.main2 h1 {
+    color: #102856;
+}
+
+.main3 h2 {
+    color: #102856;
+}
+
+.welcomeBox {
+    background-color: #bfbebe;
+    padding: 50px;
+    box-shadow: 5px 5px 5px darkgrey inset;
+    border: 2px solid #949494;
+    border-radius: 12px;
+}
+
+.customSelectBox {
+    width: 250px;
+    padding: 10px;
+    font-size: large;
+    background-color: #d0e5f8;
+}
+
+#bootstrap-overrides .largeFont {
+    font-size:x-large;
+}
+
+label {
+    font-size: large;
+}
+
+.mediumFont {
+    font-size: medium;
+}
+
+.btnStartGame {
+    background-color: #db0887;
+    border-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    box-shadow: 4px 4px 7px gray;
+}
+
+.btnStartGame:hover {
+    background-color: #5ec4f4;
+    border-color: #1430d7;
+}
+
+/* Start Question card CSS */
+
+.questCard {
+    background-color: #bfbebe;
+    /* padding: 20px 50px; */
+    padding: 50px;
+    box-shadow: 5px 5px 5px darkgrey inset;
+    border: 2px solid #949494;
+    border-radius: 12px;
+    height: 350px;
+}
+
+.scoreCard {
+    background-color: #bfbebe;
+    padding: 50px;
+    box-shadow: 5px 5px 5px darkgrey inset;
+    border: 2px solid #949494;
+    border-radius: 12px;
+}
+

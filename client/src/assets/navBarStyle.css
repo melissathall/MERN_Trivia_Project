@@ -1,0 +1,70 @@
+
+#bootstrap-overrides .centerText {
+    text-align: center;
+}
+
+#bootstrap-overrides .rightText {
+    text-align: right;
+}
+
+#bootstrap-overrides .marginRight10 {
+    margin-right: 10px;
+}
+
+#bootstrap-overrides .marginRight20 {
+    margin-right: 20px;
+}
+
+
+/* Start of Nav boxes */
+
+#bootstrap-overrides .navImgSize {
+    height: 70px;
+}
+
+#bootstrap-overrides .headerWhiteText {
+    color: white;
+}
+
+nav {
+    background-color: black;
+}
+
+nav h1 {
+    color: white;
+    font-size:x-large;
+    font-weight:lighter;
+}
+
+.nav-active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-active:hover {
+    color: rgb(41, 171, 223);
+    text-decoration:underline
+}
+
+.nav-disabled {
+    color: gray;
+    text-decoration: none;
+}
+
+/* .btnNavBar {
+    background-color: #db0887;
+    border-color: black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    box-shadow: 4px 4px 7px gray;
+} */
+
+.btnNavBar:hover {
+    background-color: #f45ebd;
+    /* background-color: #f4de5e; */
+    /* border-color: #1430d7; */
+}
